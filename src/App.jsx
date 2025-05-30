@@ -1,12 +1,16 @@
-import './App.css'
+import "./App.css";
 
 function App() {
+  function Greeting() {
+      let name = 'Arturo'
+    return  <h1>Hola {name}</h1>;
+  }
 
   return (
     <>
-      <p>Hello world</p>
+      <Greeting />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

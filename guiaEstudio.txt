@@ -1,0 +1,3 @@
+Componente: funcionen que retornan alguna interfaz, que contiene html, css y js.
+
+jsx: Es como una combinación de javascript con html. Lo que nos permite dentro de un archivo javascript retornar porciones de html y usar javascript dentro de esos fragmentos de html gracias a las llaves {}.
