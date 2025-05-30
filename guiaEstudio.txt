@@ -1,3 +1,16 @@
 Componente: funcionen que retornan alguna interfaz, que contiene html, css y js.
 
 jsx: Es como una combinación de javascript con html. Lo que nos permite dentro de un archivo javascript retornar porciones de html y usar javascript dentro de esos fragmentos de html gracias a las llaves {}.
+
+Fragment <></>: Etiqueta para agrupar varios elementos JSX sin añadir etiquetas extra al html
+Fragment: Es un conenedor vacío 
+
+Las etiquetas jsx siempre inician con una mayúscula o react 
+no los reconoce como componentes
+
+props: propiedades. Es una forma de pasarle información de un componente padre a un componente hijo
+Se utilizan para cambiar datos internamente en un componente
+Los props son parametros que se le pasan a la función, que es un componente
+
+Los props son los que hacen que los componentes luzcan distinto
+
