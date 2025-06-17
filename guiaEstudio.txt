@@ -14,3 +14,51 @@ Los props son parametros que se le pasan a la función, que es un componente
 
 Los props son los que hacen que los componentes luzcan distinto
 
+en react no se llama class, se llama className para clases
+
+Event handler (manejador de eventos): Hacer algo cuando ocurra un evento en una interfaz
+
+promesas: Resultados pendientes que se cumplirá o fallará cuando se termine cierta operación o condición
+Cuando termine, te aviso su me fue bien(resolver) o si hubo un error(reject).
+Las promesas se pueden encadenar con .then
+
+Multer para subir archivos a un servidor con nodejs y express
+Nodemailer con un servidor smtp
+
+GET: Obtener datos
+Post: Enviar datos para crear algo nuevo
+Put: Actualizar algo por completo
+Patch: Actualizar solo una parte de un algo completo
+Delete: Eliminar un recurso
+
+
+Recorrer arreglos para mostrarlos en una tabla se usa la función
+
+hooks en react: Funciones que provee react para guardar datos o cambiarlos
+
+useState: Contenedor de valores que tiene una función para cambiar el valor de dicha función
+se utiliza para manejar los valores que pueden cambiar en el tiempo.
+
+Se compone de una variable y una funcion que permite actualizar la variable
+En los parentesis del use state se pone el valor de la variable, si se deja en blanco es undefined, pero se le puede poner vacio al ponerle ('')
+const [conter, setCounter] = useState()
+
+useEffect: contenedor sirve cuando vamos a tener cambios en la interfaz. Ejecuta algo cada vez que exista un cambio
+Si le ponemos [] al final del useeffect, solo se va ejecutar cuando el componente sea creado.
+
+Por ejemplo, si useeffec detecta que una variable de useState cambio, es donde realiza cierta acción, pero nuevamente solo en esa parte del código
+
+
+Interfaces en typescript: estructura que define un objeto y que se tiene que seguir posteriormente
+
+Para manejar el estado reactivo en vue se utilizan sus propias funciones, como ref[] en cambio con react es el useState.
+Para la llamada al backend se usa el onMounted y en react el useEffect
+Para renderizados en tabla vue tiene sus propias funciones, por ejemplo el v-for
+
+
+Async await:
+
+Con el async le estamos diciendo a js que una función va esperar cosas, con el await le decimos que no siga hasta que esa parte termine.
+
+
+Funciones flecha: Usan menos código y se les puede pasar otras funciones como parametro,
